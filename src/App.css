@@ -9,7 +9,7 @@
 .display {
     margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 100%;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -17,6 +17,68 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
+    padding-right: 2%;
+    font-size: 5rem;
   }
+  
+  .display-container {
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  .operation-container {
+    display: flex;
+  }
+  
+  .left {
+    width: 65%;
+    margin: 6% 0 0 15%;
+  }
+  
+  .right {
+    width: 35%;
+    margin: 6% 8% 0 0;
+  }
+  
+  .specials {
+    width: 90%;
+    margin-left: 10%;
+  }
+  
+  .numbers {
+    width: 90%;
+    margin-left: 10%;
+    
+  }
+  
+  .operators {
+    width: 20%;
+    margin-right: 0;
+  }
+  
+  .button {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: lightskyblue;
+    font-size: 30px;
+  }
+  
+  .button:nth-child(10) {
+    width: 150px;
+    border-radius: 40%;
+  }
+
+.logo-container {
+    margin-left:
+}
+
+.numbers button {
+    background-color: blueviolet;
+    
+}
+.specials button {
+    background-color: pink;
+}
