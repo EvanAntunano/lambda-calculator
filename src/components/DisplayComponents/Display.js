@@ -1,7 +1,8 @@
 import React from "react";
 
 const Display = (props) => {
-  return <div>{props.number}</div>;
+  
+  return <div className="display">{props.number}</div>;
 };
 
 export default Display;
