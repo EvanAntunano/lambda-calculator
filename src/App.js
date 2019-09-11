@@ -26,7 +26,7 @@ function App() {
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <div className="display-container">
-          <Display sth="0" />
+          <Display />
         </div>
         <div className="operation-container">
           <div className="left">

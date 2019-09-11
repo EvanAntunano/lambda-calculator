@@ -31,9 +31,13 @@
   }
   
   .left {
+      
     width: 65%;
     margin: 6% 0 0 15%;
+    
   }
+  
+
   
   .right {
     width: 35%;
@@ -48,6 +52,8 @@
   .numbers {
     width: 90%;
     margin-left: 10%;
+    display:flex;
+    flex-wrap: wrap;
     
   }
   
@@ -77,7 +83,6 @@
 
 .numbers button {
     background-color: blueviolet;
-    
 }
 .specials button {
     background-color: pink;
